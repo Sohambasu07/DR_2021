@@ -36,7 +36,7 @@
     <td width=25%> <img src = "./figures/Figure_2f.png">(f) </td>
     <td width=25%> <img src = "./figures/Figure_2g.png">(g) </td>
   </tr>
-</div>
+</table>
 (a) Original Image, (b) Green channel component of (a), (c) CLAHE applied image, (d) Background estimated after Alternate Sequential Filtering, (e) Image (d) subtracted from (c) and CLAHE applied again, (f) Median blur and thresholding, (g) Final segmentation output.
 </div>
 
@@ -59,10 +59,10 @@
 <div align="center">
 <table>
   <tr >
-    <td width=25%> <img src = "./figures/Figure_4a.png">(a) </td>
-    <td width=25%> <img src = "./figures/Figure_4b.png">(b) </td>
-    <td width=25%> <img src = "./figures/Figure_4c.png">(c) </td>
-    <td width=25%> <img src = "./figures/Figure_4d.png"><br>(d) </td>
+    <td width=25%> <img src = "./figures/Figure_4a.png" width="100%">(a) </td>
+    <td width=25%> <img src = "./figures/Figure_4b.png" width="100%">(b) </td>
+    <td width=25%> <img src = "./figures/Figure_4c.png" width="100%">(c) </td>
+    <td width=25%> <img src = "./figures/Figure_4d.png" width="100%" display="block">(d) </td>
   </tr>
   <tr>  
     <td width=25%> <img src = "./figures/Figure_4e.png">(e) </td>
@@ -105,7 +105,7 @@
 <br><br>
 
 <div align="center">
-<img src = "./figures/Figure_7.png" width="70%">
+<img src = "./figures/Figure_7.png" width="100%">
 <p>Exudates Detection algorithm </p>
 </div>
 
@@ -184,7 +184,7 @@ image (right).</p>
 The IDRiD Disease Grading dataset was used to train and evaluate the proposed network. It had an accuracy of 75.73% on a test set comprising 25% of the entire dataset.
 
 <div align="center">
-<img src = "./figures/Figure_12.png" width="50%">
+<img src = "./figures/Figure_12.png" width="70%">
 <p"><br>DCNN training results with Training Accuracy, Test Accuracy and Training Loss</p>
 </div>
 <br><br>
