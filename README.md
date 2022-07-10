@@ -36,16 +36,16 @@
     <td width=25%> <img src = "./figures/Figure_2f.png">(f) </td>
     <td width=25%> <img src = "./figures/Figure_2g.png">(g) </td>
   </tr>
-</table>
+</div>
 (a) Original Image, (b) Green channel component of (a), (c) CLAHE applied image, (d) Background estimated after Alternate Sequential Filtering, (e) Image (d) subtracted from (c) and CLAHE applied again, (f) Median blur and thresholding, (g) Final segmentation output.
-</figure>
+</div>
 
 <br><br>
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Figure_3.png" width="70%">
-<figcaption>Blood vessel segmentation algorithm </figcaption>
-</figure>
+<p>Blood vessel segmentation algorithm </p>
+</div>
 
 <br>
 
@@ -56,7 +56,7 @@
 
 <h3>2. Optic Disc Localization</h3>
 
-<figure align="center">
+<div align="center">
 <table>
   <tr >
     <td width=25%> <img src = "./figures/Figure_4a.png">(a) </td>
@@ -70,15 +70,15 @@
     <td width=25%> <img src = "./figures/Figure_4g.png">(g) </td>
   </tr>
 </table>
-<figcaption>(a) Original image, (b) Grayscale of (a), (c) Result of k-means clustering, (d) Generated Template, (e) Template Matching result (using NCCOEFF; notice the OD region has highest similarity), (f) Marking OD and its center, (g) Masking OD region. </figcaption>
-</figure>
+<p>(a) Original image, (b) Grayscale of (a), (c) Result of k-means clustering, (d) Generated Template, (e) Template Matching result (using NCCOEFF; notice the OD region has highest similarity), (f) Marking OD and its center, (g) Masking OD region. </p>
+</div>
 
 <br><br>
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Figure_5.png" width="70%">
-<figcaption>Optic Disc Localization algorithm </figcaption>
-</figure>
+<p>Optic Disc Localization algorithm </p>
+</div>
 
 <br>
 
@@ -89,7 +89,7 @@
 
 <h3>3. Detection of Exudates</h3>
 
-<figure align="center">
+<div align="center">
 <table>
   <tr >
     <td width=20%> <img src = "./figures/Figure_6a.png">(a) </td>
@@ -99,15 +99,15 @@
     <td width=20%> <img src = "./figures/Figure_6e.png">(e) </td>
   </tr>
 </table>
-<figcaption>(a) Original Image, (b) K-means clustering result, (c) Extracting the exudates from (b) and thresholding, (d) Logical OR of (c) and the images containing the smallest exudates, (e) Final segmentation result after OD masking. </figcaption>
-</figure>
+<p>(a) Original Image, (b) K-means clustering result, (c) Extracting the exudates from (b) and thresholding, (d) Logical OR of (c) and the images containing the smallest exudates, (e) Final segmentation result after OD masking. </p>
+</div>
 
 <br><br>
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Figure_7.png" width="70%">
-<figcaption>Exudates Detection algorithm </figcaption>
-</figure>
+<p>Exudates Detection algorithm </p>
+</div>
 
 <br>
 
@@ -118,10 +118,10 @@
 
 <h3>4. Binary Diagnosis of Diabetic Retinopathy using a Deep Convolutional Neural Network</h3>
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Figure_8.png">
-<figcaption>Proposed Neural Network architecture with the corresponding kernel/Filter sizes (k), number of feature maps (n) and strides (s) specified for each convolutional layer.</figcaption>
-</figure>
+<p>Proposed Neural Network architecture with the corresponding kernel/Filter sizes (k), number of feature maps (n) and strides (s) specified for each convolutional layer.</p>
+</div>
 
 
 
@@ -135,21 +135,21 @@
 
 The DRIVE dataset was used for the evaluation of the proposed method.
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Figure_9.png" width="50%">
-<figcaption>The segmentation result for the best case (left) with ground truth (right)</figcaption>
-</figure>
+<p>The segmentation result for the best case (left) with ground truth (right)</p>
+</div>
 <br>
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Table1.png" width="70%">
-<figcaption></figcaption>
-</figure>
+<p></p>
+</div>
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Table2.png" width="70%">
-<figcaption></figcaption>
-</figure>
+<p></p>
+</div>
 <br><br>
 
 
@@ -157,36 +157,36 @@ The DRIVE dataset was used for the evaluation of the proposed method.
 
 The proposed method had an accuracy of 98.77% on the IDRiD Segmentation Dataset.
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Figure_10.png" width="50%">
-<figcaption"><br>Optic Disc masked image (left) with the original image (right)</figcaption>
-</figure>
+<p"><br>Optic Disc masked image (left) with the original image (right)</p>
+</div>
 <br><br>
 
 <h3>3. Detection of Exudates</h3>
 
 We used the IDRiD Segmentation Dataset for testing our proposed exudates detection algorithm.
 
-<figure align="center">
+<div align="center">
 <table>
   <tr>
     <td> <img src = "./figures/Figure_11a.png">(a) </td>
     <td> <img src = "./figures/Figure_11b.png">(b) </td>
   </tr>
 </table>
-<figcaption><br>(a), (b) Result of proposed exudates detection method (left) with original
-image (right).</figcaption>
-</figure>
+<p><br>(a), (b) Result of proposed exudates detection method (left) with original
+image (right).</p>
+</div>
 <br><br>
 
 <h3>4. Binary Diagnosis of DR using Deep CNN</h3>
 
 The IDRiD Disease Grading dataset was used to train and evaluate the proposed network. It had an accuracy of 75.73% on a test set comprising 25% of the entire dataset.
 
-<figure align="center">
+<div align="center">
 <img src = "./figures/Figure_12.png" width="50%">
-<figcaption"><br>DCNN training results with Training Accuracy, Test Accuracy and Training Loss</figcaption>
-</figure>
+<p"><br>DCNN training results with Training Accuracy, Test Accuracy and Training Loss</p>
+</div>
 <br><br>
 
 
