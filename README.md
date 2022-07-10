@@ -2,9 +2,9 @@
 
 [Soham Basu](https://scholar.google.com/citations?user=VFrBx88AAAAJ&hl=en), [Sayantan Mukherjee](https://orcid.org/0000-0001-9385-7369), [Ankit Bhattacharya](https://orcid.org/0000-0003-1434-7892), [Anindya Sen](https://scholar.google.com/citations?user=vA6hgasAAAAJ&hl=en)
 
-[![paper](https://img.shields.io/badge/Springer-Full_Paper-blue)](https://doi.org/10.1007/978-981-16-1543-6_16) 
+[![paper](https://img.shields.io/badge/Springer-Full_Paper-rgb(50,50,200))](https://doi.org/10.1007/978-981-16-1543-6_16) 
 [![dataset](https://img.shields.io/badge/DRIVE-Dataset-red)](https://drive.grand-challenge.org/)
-[![dataset](https://img.shields.io/badge/IDRiD-Dataset-rgb(255,20,212))](http://dx.doi.org/10.21227/H25W98)
+[![dataset](https://img.shields.io/badge/IDRiD-Dataset-rgb(165,10,175))](http://dx.doi.org/10.21227/H25W98)
 [![slides](https://img.shields.io/badge/Presentation-Slides-yellow)](https://drive.google.com/file/d/1xo0QhifZ2juq-dHoke1nMhcgLlhQJKsj/view?usp=sharing)
 
 
@@ -26,15 +26,15 @@
 <div align="center">
 <table>
   <tr >
-    <td width=25%><img src = "./figures/Figure_2a.png">(a) </td>
-    <td width=25%> <img src = "./figures/Figure_2b.png">(b) </td>
-    <td width=25%> <img src = "./figures/Figure_2c.png">(c) </td>
-    <td width=25%> <img src = "./figures/Figure_2d.png">(d) </td>
+    <td width=25%><img src = "./figures/Figure_2a.png" width="100%"><br>(a) </td>
+    <td width=25%> <img src = "./figures/Figure_2b.png" width="100%"><br>(b) </td>
+    <td width=25%> <img src = "./figures/Figure_2c.png" width="100%"><br>(c) </td>
+    <td width=25%> <img src = "./figures/Figure_2d.png" width="100%"><br>(d) </td>
   </tr>
   <tr>  
-    <td width=25%> <img src = "./figures/Figure_2e.png">(e) </td>
-    <td width=25%> <img src = "./figures/Figure_2f.png">(f) </td>
-    <td width=25%> <img src = "./figures/Figure_2g.png">(g) </td>
+    <td width=25%> <img src = "./figures/Figure_2e.png" width="100%"><br>(e) </td>
+    <td width=25%> <img src = "./figures/Figure_2f.png" width="100%"><br>(f) </td>
+    <td width=25%> <img src = "./figures/Figure_2g.png" width="100%"><br>(g) </td>
   </tr>
 </table>
 (a) Original Image, (b) Green channel component of (a), (c) CLAHE applied image, (d) Background estimated after Alternate Sequential Filtering, (e) Image (d) subtracted from (c) and CLAHE applied again, (f) Median blur and thresholding, (g) Final segmentation output.
@@ -59,15 +59,15 @@
 <div align="center">
 <table>
   <tr >
-    <td width=25%> <img src = "./figures/Figure_4a.png" width="100%">(a) </td>
-    <td width=25%> <img src = "./figures/Figure_4b.png" width="100%">(b) </td>
-    <td width=25%> <img src = "./figures/Figure_4c.png" width="100%">(c) </td>
-    <td width=25%> <img src = "./figures/Figure_4d.png" width="100%" display="block">(d) </td>
+    <td width=25%> <img src = "./figures/Figure_4a.png" width="100%"><br>(a) </td>
+    <td width=25%> <img src = "./figures/Figure_4b.png" width="100%"><br>(b) </td>
+    <td width=25%> <img src = "./figures/Figure_4c.png" width="100%"><br>(c) </td>
+    <td width=25%> <img src = "./figures/Figure_4d.png" width="75%"><br>(d) </td>
   </tr>
   <tr>  
-    <td width=25%> <img src = "./figures/Figure_4e.png">(e) </td>
-    <td width=25%> <img src = "./figures/Figure_4f.png">(f) </td>
-    <td width=25%> <img src = "./figures/Figure_4g.png">(g) </td>
+    <td width=25%> <img src = "./figures/Figure_4e.png" width="1005"><br>(e) </td>
+    <td width=25%> <img src = "./figures/Figure_4f.png" width="100%"><br>(f) </td>
+    <td width=25%> <img src = "./figures/Figure_4g.png" width="100%"><br>(g) </td>
   </tr>
 </table>
 <p>(a) Original image, (b) Grayscale of (a), (c) Result of k-means clustering, (d) Generated Template, (e) Template Matching result (using NCCOEFF; notice the OD region has highest similarity), (f) Marking OD and its center, (g) Masking OD region. </p>
@@ -92,11 +92,11 @@
 <div align="center">
 <table>
   <tr >
-    <td width=20%> <img src = "./figures/Figure_6a.png">(a) </td>
-    <td width=20%> <img src = "./figures/Figure_6b.png">(b) </td>
-    <td width=20%> <img src = "./figures/Figure_6c.png">(c) </td>
-    <td width=20%> <img src = "./figures/Figure_6d.png">(d) </td>
-    <td width=20%> <img src = "./figures/Figure_6e.png">(e) </td>
+    <td width=20%> <img src = "./figures/Figure_6a.png" width="100%"><br>(a) </td>
+    <td width=20%> <img src = "./figures/Figure_6b.png" width="100%"><br>(b) </td>
+    <td width=20%> <img src = "./figures/Figure_6c.png" width="100%"><br>(c) </td>
+    <td width=20%> <img src = "./figures/Figure_6d.png" width="100%"><br>(d) </td>
+    <td width=20%> <img src = "./figures/Figure_6e.png" width="100%"><br>(e) </td>
   </tr>
 </table>
 <p>(a) Original Image, (b) K-means clustering result, (c) Extracting the exudates from (b) and thresholding, (d) Logical OR of (c) and the images containing the smallest exudates, (e) Final segmentation result after OD masking. </p>
@@ -159,7 +159,7 @@ The proposed method had an accuracy of 98.77% on the IDRiD Segmentation Dataset.
 
 <div align="center">
 <img src = "./figures/Figure_10.png" width="50%">
-<p"><br>Optic Disc masked image (left) with the original image (right)</p>
+<p>Optic Disc masked image (left) with the original image (right)</p>
 </div>
 <br><br>
 
@@ -170,11 +170,11 @@ We used the IDRiD Segmentation Dataset for testing our proposed exudates detecti
 <div align="center">
 <table>
   <tr>
-    <td> <img src = "./figures/Figure_11a.png">(a) </td>
-    <td> <img src = "./figures/Figure_11b.png">(b) </td>
+    <td width="50%"> <img src = "./figures/Figure_11a.png" width="100%"><br>(a) </td>
+    <td width="50%"> <img src = "./figures/Figure_11b.png" width="100%"><br>(b) </td>
   </tr>
 </table>
-<p><br>(a), (b) Result of proposed exudates detection method (left) with original
+<p>(a), (b) Result of proposed exudates detection method (left) with original
 image (right).</p>
 </div>
 <br><br>
@@ -185,7 +185,7 @@ The IDRiD Disease Grading dataset was used to train and evaluate the proposed ne
 
 <div align="center">
 <img src = "./figures/Figure_12.png" width="70%">
-<p"><br>DCNN training results with Training Accuracy, Test Accuracy and Training Loss</p>
+<p>DCNN training results with Training Accuracy, Test Accuracy and Training Loss</p>
 </div>
 <br><br>
 
