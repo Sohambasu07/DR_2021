@@ -43,7 +43,7 @@
 <br><br>
 
 <figure>
-<img  style="background-color:rgba(255,255,255,0);" src = "./figures/Figure_3.png">
+<img  style="background-color:rgba(255,255,255,0.2);" src = "./figures/Figure_3.png">
 <figcaption style="text-align:center;">Blood vessel segmentation algorithm </figcaption>
 </figure>
 
@@ -76,7 +76,7 @@
 <br><br>
 
 <figure>
-<img  style="background-color:rgba(255,255,255,0);" src = "./figures/Figure_5.png">
+<img  style="background-color:rgba(255,255,255,0.2);" src = "./figures/Figure_5.png">
 <figcaption style="text-align:center;">Optic Disc Localization algorithm </figcaption>
 </figure>
 
@@ -105,7 +105,7 @@
 <br><br>
 
 <figure>
-<img  style="background-color:rgba(255,255,255,0);" src = "./figures/Figure_7.png">
+<img  style="background-color:rgba(255,255,255,0.2);" src = "./figures/Figure_7.png">
 <figcaption style="text-align:center;">Exudates Detection algorithm </figcaption>
 </figure>
 
@@ -119,7 +119,7 @@
 <h3>4. Binary Diagnosis of Diabetic Retinopathy using a Deep Convolutional Neural Network</h3>
 
 <figure>
-<img  style="background-color:rgba(255,255,255,0);" src = "./figures/Figure_8.png">
+<img  style="background-color:rgba(255,255,255,0.2);" src = "./figures/Figure_8.png">
 <figcaption style="text-align:center;">Proposed Neural Network architecture with the corresponding kernel/Filter sizes (k), number of feature maps (n) and strides (s) specified for each convolutional layer.</figcaption>
 </figure>
 
@@ -139,6 +139,7 @@ The DRIVE dataset was used for the evaluation of the proposed method.
 <img src = "./figures/Figure_9.png">
 <figcaption style="text-align:center">The segmentation result for the best case (left) with ground truth (right)</figcaption>
 </figure>
+<br>
 
 <figure>
 <img src = "./figures/Table1.png">
