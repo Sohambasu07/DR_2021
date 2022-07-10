@@ -23,7 +23,7 @@
 
 <h3>1. Blood Vessel Segmentation</h3>
 
-<figure align=center>
+<div align="center">
 <table>
   <tr >
     <td width=25%><img src = "./figures/Figure_2a.png">(a) </td>
@@ -37,12 +37,12 @@
     <td width=25%> <img src = "./figures/Figure_2g.png">(g) </td>
   </tr>
 </table>
-<figcaption>(a) Original Image, (b) Green channel component of (a), (c) CLAHE applied image, (d) Background estimated after Alternate Sequential Filtering, (e) Image (d) subtracted from (c) and CLAHE applied again, (f) Median blur and thresholding, (g) Final segmentation output.</figcaption>
+(a) Original Image, (b) Green channel component of (a), (c) CLAHE applied image, (d) Background estimated after Alternate Sequential Filtering, (e) Image (d) subtracted from (c) and CLAHE applied again, (f) Median blur and thresholding, (g) Final segmentation output.
 </figure>
 
 <br><br>
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Figure_3.png" width="70%">
 <figcaption>Blood vessel segmentation algorithm </figcaption>
 </figure>
@@ -56,7 +56,7 @@
 
 <h3>2. Optic Disc Localization</h3>
 
-<figure align=center>
+<figure align="center">
 <table>
   <tr >
     <td width=25%> <img src = "./figures/Figure_4a.png">(a) </td>
@@ -75,7 +75,7 @@
 
 <br><br>
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Figure_5.png" width="70%">
 <figcaption>Optic Disc Localization algorithm </figcaption>
 </figure>
@@ -89,7 +89,7 @@
 
 <h3>3. Detection of Exudates</h3>
 
-<figure align=center>
+<figure align="center">
 <table>
   <tr >
     <td width=20%> <img src = "./figures/Figure_6a.png">(a) </td>
@@ -104,7 +104,7 @@
 
 <br><br>
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Figure_7.png" width="70%">
 <figcaption>Exudates Detection algorithm </figcaption>
 </figure>
@@ -118,7 +118,7 @@
 
 <h3>4. Binary Diagnosis of Diabetic Retinopathy using a Deep Convolutional Neural Network</h3>
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Figure_8.png">
 <figcaption>Proposed Neural Network architecture with the corresponding kernel/Filter sizes (k), number of feature maps (n) and strides (s) specified for each convolutional layer.</figcaption>
 </figure>
@@ -135,18 +135,18 @@
 
 The DRIVE dataset was used for the evaluation of the proposed method.
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Figure_9.png" width="50%">
 <figcaption>The segmentation result for the best case (left) with ground truth (right)</figcaption>
 </figure>
 <br>
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Table1.png" width="70%">
 <figcaption></figcaption>
 </figure>
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Table2.png" width="70%">
 <figcaption></figcaption>
 </figure>
@@ -157,7 +157,7 @@ The DRIVE dataset was used for the evaluation of the proposed method.
 
 The proposed method had an accuracy of 98.77% on the IDRiD Segmentation Dataset.
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Figure_10.png" width="50%">
 <figcaption"><br>Optic Disc masked image (left) with the original image (right)</figcaption>
 </figure>
@@ -167,7 +167,7 @@ The proposed method had an accuracy of 98.77% on the IDRiD Segmentation Dataset.
 
 We used the IDRiD Segmentation Dataset for testing our proposed exudates detection algorithm.
 
-<figure align=center>
+<figure align="center">
 <table>
   <tr>
     <td> <img src = "./figures/Figure_11a.png">(a) </td>
@@ -183,7 +183,7 @@ image (right).</figcaption>
 
 The IDRiD Disease Grading dataset was used to train and evaluate the proposed network. It had an accuracy of 75.73% on a test set comprising 25% of the entire dataset.
 
-<figure align=center>
+<figure align="center">
 <img src = "./figures/Figure_12.png" width="50%">
 <figcaption"><br>DCNN training results with Training Accuracy, Test Accuracy and Training Loss</figcaption>
 </figure>
