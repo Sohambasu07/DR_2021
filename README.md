@@ -14,9 +14,10 @@
 
 > **Abstract:** *Diabetic Retinopathy (DR) is a complication of long-standing, unchecked diabetes and one of the leading causes of blindness in the world. This paper focuses on improved and robust methods to extract some of the features of DR, viz. Blood Vessels and Exudates. Blood vessels are segmented using multiple morphological and thresholding operations. For the segmentation of exudates, k-means clustering and contour detection on the original images are used. Extensive noise reduction is performed to remove false positives from the vessel segmentation algorithm's results. The localization of Optic Disc using k-means clustering and template matching is also performed. Lastly, this paper presents a Deep Convolutional Neural Network (DCNN) model with 14 Convolutional Layers and 2 Fully Connected Layers, for the automatic, binary diagnosis of DR. The vessel segmentation, optic disc localization and DCNN achieve accuracies of 95.93%, 98.77% and 75.73% respectively.*
 
+<hr />
 
 <h2>Proposed Methods</h2>
-<hr />
+
 
 <!--
   ======================BLOOD VESSEL SEGMENTATION===========================
@@ -125,13 +126,13 @@
 </div>
 
 
+<hr />
 
 <!--
   ====================================RESULTS===============================
                           -->
 
 <h2>Results </h2>
-<hr />
 <h3>1. Blood Vessel Segmentation</h3>
 
 The DRIVE dataset was used for the evaluation of the proposed method.
@@ -190,12 +191,15 @@ The IDRiD Disease Grading dataset was used to train and evaluate the proposed ne
 </div>
 <br><br>
 
+<hr />
 
 <h2>Cite our work</h2>
-<hr />
+
     
     Basu, S., Mukherjee, S., Bhattacharya, A., Sen, A. (2021). Segmentation of Blood Vessels, Optic Disc Localization, Detection of Exudates, and Diabetic Retinopathy Diagnosis from Digital Fundus Images. In: Pan, I., Mukherjee, A., Piuri, V. (eds) Proceedings of Research and Applications in Artificial Intelligence. Advances in Intelligent Systems and Computing, vol 1355. Springer, Singapore. https://doi.org/10.1007/978-981-16-1543-6_16
 
 
-<h2>Contact</h2><hr />
+<hr />
+
+<h2>Contact</h2>
 For any queries, please contact: <a href="mailto:soham.basu07@gmail.com">soham.basu07@gmail.com</a>
