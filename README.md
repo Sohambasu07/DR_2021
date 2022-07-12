@@ -2,10 +2,11 @@
 
 [Soham Basu](https://scholar.google.com/citations?user=VFrBx88AAAAJ&hl=en), [Sayantan Mukherjee](https://orcid.org/0000-0001-9385-7369), [Ankit Bhattacharya](https://orcid.org/0000-0003-1434-7892), [Anindya Sen](https://scholar.google.com/citations?user=vA6hgasAAAAJ&hl=en)
 
-[![paper](https://img.shields.io/badge/Springer-Full_Paper-rgb(50,50,200))](https://doi.org/10.1007/978-981-16-1543-6_16) 
-[![dataset](https://img.shields.io/badge/DRIVE-Dataset-red)](https://drive.grand-challenge.org/)
-[![dataset](https://img.shields.io/badge/IDRiD-Dataset-rgb(165,10,175))](http://dx.doi.org/10.21227/H25W98)
-[![slides](https://img.shields.io/badge/Presentation-Slides-yellow)](https://drive.google.com/file/d/1xo0QhifZ2juq-dHoke1nMhcgLlhQJKsj/view?usp=sharing)
+[![paper](https://img.shields.io/badge/Springer-Paper-rgb(50,50,200))](https://doi.org/10.1007/978-981-16-1543-6_16) 
+[![paper](https://img.shields.io/badge/arXiv-Accepted_Manuscript-brightgreen)](https://arxiv.org/abs/2207.04345) 
+[![dataset](https://img.shields.io/badge/DRIVE-Dataset-red)](https://drive.grand-challenge.org/) 
+[![dataset](https://img.shields.io/badge/IDRiD-Dataset-rgb(165,10,175))](http://dx.doi.org/10.21227/H25W98) 
+[![slides](https://img.shields.io/badge/Presentation-Slides-yellow)](https://drive.google.com/file/d/1xo0QhifZ2juq-dHoke1nMhcgLlhQJKsj/view?usp=sharing) 
 
 
 
