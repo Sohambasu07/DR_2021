@@ -2,6 +2,9 @@
 
 [Soham Basu](https://scholar.google.com/citations?user=VFrBx88AAAAJ&hl=en), [Sayantan Mukherjee](https://orcid.org/0000-0001-9385-7369), [Ankit Bhattacharya](https://orcid.org/0000-0003-1434-7892), [Anindya Sen](https://scholar.google.com/citations?user=vA6hgasAAAAJ&hl=en)
 
+ 	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/segmentation-of-blood-vessels-optic-disc/retinal-vessel-segmentation-on-drive)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-drive?p=segmentation-of-blood-vessels-optic-disc)
+
 [![paper](https://img.shields.io/badge/Springer-Paper-rgb(50,50,200))](https://doi.org/10.1007/978-981-16-1543-6_16) 
 [![paper](https://img.shields.io/badge/arXiv-Accepted_Manuscript-brightgreen)](https://arxiv.org/abs/2207.04345) 
 [![dataset](https://img.shields.io/badge/DRIVE-Dataset-red)](https://drive.grand-challenge.org/) 
