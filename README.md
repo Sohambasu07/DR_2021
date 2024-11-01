@@ -6,7 +6,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/segmentation-of-blood-vessels-optic-disc/retinal-vessel-segmentation-on-drive)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-drive?p=segmentation-of-blood-vessels-optic-disc)
 
 [![paper](https://img.shields.io/badge/Springer-Paper-rgb(50,50,200))](https://doi.org/10.1007/978-981-16-1543-6_16) 
-[![paper](https://img.shields.io/badge/arXiv-Accepted_Manuscript-brightgreen)](https://arxiv.org/abs/2207.04345) 
+[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2207.04345)
 [![dataset](https://img.shields.io/badge/DRIVE-Dataset-red)](https://drive.grand-challenge.org/) 
 [![dataset](https://img.shields.io/badge/IDRiD-Dataset-rgb(165,10,175))](http://dx.doi.org/10.21227/H25W98) 
 [![slides](https://img.shields.io/badge/Presentation-Slides-yellow)](https://drive.google.com/file/d/1xo0QhifZ2juq-dHoke1nMhcgLlhQJKsj/view?usp=sharing) 
